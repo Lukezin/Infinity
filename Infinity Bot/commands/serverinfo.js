@@ -10,7 +10,7 @@ exports.run = (bot,message,args) => {
     .setTimestamp()
     .setTitle(`${message.guild.name}`)
     .setThumbnail(gAvatar)
-    .setColor("RANDOM")
+    .setColor("#00a4ff")
     .setDescription(`Algumas informações de ${message.guild.name}`)
     .addField(`ID do servidor`, message.guild.id, true)
     .addField (`Fundador do servidor`, message.guild.owner, true)
